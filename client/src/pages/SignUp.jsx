@@ -38,7 +38,7 @@ const SignUp = () => {
     }
 
     setLoading(false);
-    console.log(data);
+    
   };
 
   console.log(formData);
