@@ -1,6 +1,11 @@
 import { useRef, useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import { getStorage, ref, uploadBytesResumable } from "firebase/storage";
+import {
+  getDownloadURL,
+  getStorage,
+  ref,
+  uploadBytesResumable,
+} from "firebase/storage";
 import { app } from "../firebase";
 
 const Profile = () => {
